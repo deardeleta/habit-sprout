@@ -1,0 +1,18 @@
+# Node.js backend (server/)
+server/node_modules/
+server/.env
+server/package-lock.json
+
+# React frontend (client/)
+client/node_modules/
+client/build/
+client/.env
+client/package-lock.json
+
+# Python (Flask microservice)
+habit-flask/venv/
+habit-flask/__pycache__/
+habit-flask/.env
+
+# macOS
+.DS_Store
