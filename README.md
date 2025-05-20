@@ -48,38 +48,43 @@ habitsprout-app/
 
 ### 1. Clone the project
 
-```bash
+```
 git clone https://github.com/deardeleta/habit-sprout.git
-cd habit-sprout
-
+cd habit-sprout```
+```
 ### 2. Run the React frontend
+```
 cd client
 npm install
 npm run dev
-
+```
 ### 3. Run the Node backend
+```
 cd ../server
 npm install
 node server.js
-
-### Run the Flask quote API
+```
+### 4. Run the Flask quote API
+```
 cd ../habit-flask
 python3 -m venv venv
 source venv/bin/activate
 pip install flask flask-cors
 python app.py
-
+```
 🔐 Environment Variables
-
+<br>
 Create a .env file in each folder as needed. Examples:
-
+<br>
 server/.env
+```
 PORT=8000
 DATABASE_URL=your_database_connection_string
-
+```
 client/.env
-VITE_API_URL=http://localhost:8000
-
+```
+ VITE_API_URL=http://localhost:8000 
+```
 habit-flask/.env
 (not required unless you add config)
 
